@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>MAJORPROJECT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    
+ 
+<style>
+
+    /* Dropdown Button */
+.dropbtn {
+
+    background-color: #E74C3C;
+    color: white;
+    padding: 14px;
+    font-size: 17px;
+    border: none;
+    min-width:180px;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180.5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:17px;
+    background-color:#E74C3C;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:  #EC7063}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #EC7063;
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.search input[type=text] {
+  padding: 13px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background:#FDFEFE    ;
+}
+
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 13px;
+  background:#E74C3C  ;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+
+}
+
+form.search button:hover {
+  background:#EC7063 ;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #E74C3C  ;
+    max-width:100%;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #EC7063 ;
+    color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #E74C3C;
+    color: white;
+}
+/*style logo*/
+.navbar-brand{
+color:#E74C3C;
+width: auto;
+font-size:20px;
+padding:10px;
+
+}
+.navbar-header .navbar-brand{
+  color:#E74C3C;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+
+    
+    
+ 
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="row">
+
+
+         <!-- Logo -->
+         
+              <div class= md-col-3 >  
+                <div class="navbar-header">
+                <a href="#" class="navbar-brand">MAJORPROJECT</a>
+                </div>
+
+             </div>
+  
+
+            <!-- dropdown button -->
+            <div class= md-col-3> 
+        
+             <div class="dropdown">
+                 <button class="dropbtn">Categories</button>
+                         <div class="dropdown-content">
+                             <a href="#">Link 1</a>
+                             <a href="#">Link 2</a>
+                             <a href="#">Link 3</a>
+                         </div>
+                
+             </div>
+           </div>
+    
+
+                <!-- search box with button -->
+      
+                <div class= md-col-3 > 
+             <form class="search" action="action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            </div>
+             <!-- menu items -->
+
+              <div class= md-col-3 > 
+        
+            <div class="topnav">
+                    
+                    <a href="#">Become an instructor</a>
+                    <a href="#">Shopping cart</a>
+                    <a href="#">Log in</a>
+                     <a href="#">Contact</a>
+                         <a href="#">About us</a>
+                   
+            </div>
+        </div>
+      </div>
+    </div>
+
+                
+       
+
+
+        </nav>
+    
+    
+        
+
+
+</body>
+</html>
